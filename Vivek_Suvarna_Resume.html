@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Suvarna - Software Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: #fff;
+            text-align: center;
+            padding: 50px 40px;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #a0aec0;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #cbd5e0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .contact-info a {
+            color: #63b3ed;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #90cdf4;
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 40px 50px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #2d3748;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .section-content {
+            font-size: 15px;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+
+        .job-date {
+            font-style: italic;
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .education-item {
+            margin-bottom: 12px;
+            padding: 10px;
+            background-color: #f7fafc;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+            color: #4a5568;
+        }
+
+        .project-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #2d3748;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .skills-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            padding: 12px;
+            background-color: #edf2f7;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .skill-category strong {
+            font-weight: 700;
+            color: #2d3748;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .container {
+                border-radius: 0;
+            }
+
+            header {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .skills-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            header {
+                background: #2d3748;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>VIVEK SUVARNA</h1>
+        <div class="subtitle">Software Developer</div>
+        <div class="contact-info">
+            <a href="/cdn-cgi/l/email-protection#7b0d120d1e10080e0d1a09151a4b4d483b1c161a121755181416"><span class="__cf_email__" data-cfemail="0c7a657a69677f797a6d7e626d3c3a3f4c6b616d6560226f6361">[email&#160;protected]</span></a> | 
+            +91 7756029366 | 
+            <a href="https://viveksuv.vercel.app" target="_blank">viveksuv.vercel.app</a> | 
+            <a href="https://github.com/Viveks063" target="_blank">github.com/Viveks063</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <div class="section-content">
+            Software Developer specializing in backend systems, Android applications, and AI-driven solutions. Experienced in building scalable Spring Boot APIs, real-time applications using WebSockets, and performance-optimized Android apps with BLE integration. Solved 350+ DSA problems and built 20+ production-ready projects across web, mobile, and ML domains. Currently working on real-time IoT sensor platforms as a Software Engineering Intern.
+        </div>
+    </section>
+
+    <section>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <div class="section-content">
+            <div class="job-title">Software Engineering Intern | Doori (IoT Smart Sensor Platform)</div>
+            <div class="job-date">January 2026 - Present</div>
+            <ul>
+                <li>Developed mobile application features for real-time sensor data monitoring using Android SDK and BLE integration</li>
+                <li>Improved app performance by 20% through efficient state management and debugging</li>
+                <li>Implemented secure authentication and backend connectivity using REST APIs and Firebase</li>
+                <li>Collaborated with cross-functional teams (hardware + backend) to ensure seamless device-to-app communication</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>EDUCATION</h2>
+        <div class="section-content">
+            <div class="education-item">
+                <strong>B.Tech in Computer Science Engineering</strong> | Pillai College of Engineering | 2022 - 2026 | CGPA: 7.2
+            </div>
+            <div class="education-item">
+                <strong>Class XII</strong> | Narayana Junior College | 91.6%
+            </div>
+            <div class="education-item">
+                <strong>Class X (ICSE)</strong> | Presidency School | 83.6%
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="section-content skills-content">
+            <div class="skill-category">
+                <strong>Languages:</strong> Java, Kotlin, Python, JavaScript, Dart
+            </div>
+            <div class="skill-category">
+                <strong>Backend:</strong> Spring Boot, Spring Security, Spring WebSocket, REST APIs, Maven
+            </div>
+            <div class="skill-category">
+                <strong>Mobile:</strong> Android SDK, BLE, Firebase, Room Database
+            </div>
+            <div class="skill-category">
+                <strong>Frontend:</strong> React, HTML, CSS, JavaScript
+            </div>
+            <div class="skill-category">
+                <strong>AI/ML:</strong> LSTM, Transformers, OpenCV, Deep Learning
+            </div>
+            <div class="skill-category">
+                <strong>Databases & Tools:</strong> PostgreSQL, Firebase, H2, Git, Pandas
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>KEY PROJECTS</h2>
+        <div class="section-content">
+            <div class="project-title">Real-Time Chat Application | Spring Boot, WebSocket, PostgreSQL</div>
+            <ul>
+                <li>Built room-based real-time chat system supporting concurrent users with message persistence</li>
+                <li>Implemented WebSocket-based communication for low-latency messaging</li>
+            </ul>
+
+            <div class="project-title">Blog API with JWT Authentication | Spring Boot, Spring Security, PostgreSQL</div>
+            <ul>
+                <li>Designed RESTful APIs with role-based access control and JWT authentication</li>
+                <li>Implemented secure CRUD operations with input validation and error handling</li>
+            </ul>
+
+            <div class="project-title">Fitness Tracking App | Android SDK, Room Database, Health APIs</div>
+            <ul>
+                <li>Built Android app for comprehensive health metrics tracking with workout logging and progress visualization</li>
+                <li>Implemented local data persistence using Room Database for offline functionality</li>
+            </ul>
+
+            <div class="project-title">Image Captioning with BLIP | Python, Transformers, Deep Learning</div>
+            <ul>
+                <li>Implemented transformer-based BLIP model for automatic image caption generation</li>
+                <li>Achieved high accuracy on diverse image datasets using pre-trained models</li>
+            </ul>
+
+            <div class="project-title">Next Word Predictor | Python, LSTM, TensorFlow</div>
+            <ul>
+                <li>Developed LSTM-based neural network for context-aware text prediction</li>
+                <li>Trained model on large text corpora achieving high prediction accuracy</li>
+            </ul>
+
+            <div class="project-title">Focus Detective Chrome Extension | JavaScript, Chrome APIs, HTML/CSS</div>
+            <ul>
+                <li>Built Chrome extension that blocks distracting websites and provides productivity insights</li>
+                <li>Implemented time tracking and analytics dashboard to monitor browsing patterns</li>
+            </ul>
+
+            <div class="project-title">URL Shortener Service | Spring Boot, REST APIs, H2 Database</div>
+            <ul>
+                <li>Created secure URL shortening service with custom short codes and analytics tracking</li>
+                <li>Implemented rate limiting and validation for enhanced security</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>ACHIEVEMENTS</h2>
+        <div class="section-content">
+            <ul>
+                <li>Solved 350+ problems on LeetCode, demonstrating strong DSA fundamentals</li>
+                <li>Built 20+ production-ready projects across mobile, web, backend, and AI/ML domains</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>LANGUAGES</
